@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PickleBall Lessons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id='header'>
+        <a href="index.html">
+       <img src="https://media.istockphoto.com/vectors/pickleball-with-a-ball-and-a-rackets-for-playing-vector-illustration-vector-id1314144124?k=20&m=1314144124&s=612x612&w=0&h=57YJlmCZK906RuhkiotHHKZirutZ48DgOfjjzkEoQzo=" alt="PickleBall Racket with ball" id="header-img">
+    </img></a> <div id='logoText'>Pickleball Lessons</div>
+    <nav id="nav-bar">
+        <!-- 3 clickable elements wiwth class nav-link -->
+        <a href="#product-video" class="nav-link">Video</a>
+        <a href="#form" class="nav-link">Form</a>
+        <a href="#product-info" class="nav-link">Product Info</a>
+    </nav>
+    </header>
+    <main>
+        <h1>Learn About The Fastest Growing Sport!!</h1>
+        <!-- product video -->
+        <div class='container'>
+            <div id='product-video'>
+                <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/RF5RyCh7GNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- form -->
+        <div id='form-div'>
+            <form id='form' action="https://www.freecodecamp.com/email-submit" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                </div>
+                <!-- input with submit that goes to static page -->
+                <div class='form-group'>
+                    <input id='submit' type="submit" class="btn btn-primary" value="Sign Up">
+                <!-- submit button goes to https://www.freecodecamp.com/email-submit -->    
+                
+            </form>
+        </div>  <!-- end form div -->
+        <!-- product info -->  
+    <div class="container" id='product-info'>
+        <h1>Available Classes</h1>
+        <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Beginner</h5>
+                        <p class="card-text">Start off on the right foot with these quality made courses. </p>
+                        <a href="#" class="course-link btn btn-primary">Course Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Intermediate</h5>
+                        <p class="card-text">Get the ball rolling with these quality made courses. </p>
+                        <a href="#" class="course-link btn btn-primary">Course Link</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2021 Company, Inc.</p>
+                </div>
+            </div>
+        </div>
+</html>
